@@ -253,10 +253,14 @@
 
 ## 5. Derived Metrics
 
-* **Gross Profit Margin:** `(price - cogs) / price` (Requires `products.csv`).
-* **Return Rate:** Number of records in `returns.csv` / Number of rows in `order_items.csv` (Requires joining `returns.csv`, `order_items.csv`, and `products.csv`).
-* **Average Orders per Customer:** Total orders / Number of customers in a group (Requires `orders.csv`, `customers.csv`).
-* **Promo Usage Rate:** Percentage of rows in `order_items.csv` where `promo_id` is not null.
+* **Gross Profit Margin:** `(price - cogs) / price` (Requires `products.csv`) .
+* **Return Rate:** Number of records in `returns.csv` divided by the number of rows in `order_items.csv` (Requires joining `returns.csv` with `products.csv` on `product_id` to filter by product attributes like size, and comparing against `order_items.csv`) .
+* **Inter-order Gap:** The median number of days between two consecutive purchases made by the same customer (Requires `orders.csv`) .
+* **Average Orders per Customer:** Total orders / Number of customers in a specific group, such as an age group (Requires `orders.csv`, `customers.csv`) .
+* **Promotion Application Rate:** Percentage of rows in `order_items.csv` where a promotion is applied (i.e., `promo_id` is not null) .
+* **Discount Amount Calculation** (Requires `promotions.csv`, `order_items.csv`):
+  * *Percentage Promo:* `discount_amount = quantity × unit_price × (discount_value/100)`
+  * *Fixed Promo:* `discount_amount = quantity × discount_value`
 
 ---
 
