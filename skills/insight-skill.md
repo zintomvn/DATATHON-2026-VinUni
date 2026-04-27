@@ -1,9 +1,10 @@
-Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào ảnh và thông tin tôi gửi, viết markdown nhận xét theo format sau đó xuất ra code markdown trong khung chat để tôi copy.
+Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào ảnh visualization và thông tin tôi gửi, viết markdown nhận xét theo format sau đó xuất ra code markdown trong khung chat để tôi copy.
 
-Thông tin:
+Thông tin: [thông tin]
 
-Format nhận xét:
+Format markdown nhận xét:
 
+```markdown
 **Nhận xét:**
 
 - **Quan sát:**
@@ -20,3 +21,4 @@ Format nhận xét:
     - Phân tích sâu mức độ hiệu quả (ROI): So sánh tỷ lệ sử dụng (redemption rate) và lợi nhuận ròng giữa nhóm mã giảm giá không yêu cầu Min Order (0 - 25k) và nhóm có Min Order cao (100k, 150k) để tìm ra mức rào cản tối ưu nhất.
     - Tối ưu hóa các "bậc thang" Min Order: Khoảng trống từ 25.000 VNĐ đến 100.000 VNĐ khá lớn. Có thể thử nghiệm (A/B Testing) thêm các mốc yêu cầu đơn tối thiểu ở mức giữa (ví dụ 50.000 VNĐ hoặc 75.000 VNĐ) để xem khách hàng có dễ dàng chi tiêu thêm để đạt ngưỡng hay không.
     - Kiểm soát ngân sách cho các Outliers: Theo dõi chặt chẽ chi phí marketing cho nhóm giảm giá 50 để đảm bảo không bị lạm dụng, đồng thời đo lường xem mức giảm sâu này có thực sự mang lại lượng khách hàng mới chất lượng hay không.
+```

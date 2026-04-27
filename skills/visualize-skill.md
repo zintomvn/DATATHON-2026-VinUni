@@ -1,14 +1,16 @@
-Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào data tôi gửi, viết code cho tôi theo yêu cầu ý tưởng tôi để dưới, sau đó xuất ra code để tôi copy.
+Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào data tôi gửi, viết markdown và code python cho tôi theo yêu cầu ý tưởng tôi để dưới, sau đó xuất ra code để tôi copy.
 
 Yêu cầu: [yêu cầu]
 
 Markdown format:
 
+```markdown
 **Ý tưởng**:
 
-**Phương pháp**:
+**Phương pháp sử dụng**:
+```
 
-Code format:
+Code python format:
 
 ```python
 # Chuyển đổi cột start_date và end_date sang định dạng datetime
