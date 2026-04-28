@@ -212,19 +212,19 @@
 
 ### `web_traffic.csv`
 * **Description:** Daily website traffic.
-* **Grain:** 1 row = 1 traffic source per day.
-* **Primary Key:** Not explicitly defined (Implicitly composite `date` + `traffic_source`).
+* **Grain:** 1 row = 1 day.
+* **Primary Key:** Not explicitly defined (Implicitly `date`).
 * **Foreign Keys:** None.
 
 | Column | Type | Description & Constraints |
 | :--- | :--- | :--- |
 | `date` | date | Traffic date |
-| `sessions` | int | Total sessions |
+| `sessions` | int | Total sessions in the day |
 | `unique_visitors` | int | Unique visitors |
 | `page_views` | int | Total page views |
 | `bounce_rate` | float | Single-page session bounce rate |
 | `avg_session_duration_sec` | float | Avg session duration in seconds |
-| `traffic_source` | str | Source driving traffic |
+| `traffic_source` | str | Main source driving traffic for the day |
 
 ---
 
