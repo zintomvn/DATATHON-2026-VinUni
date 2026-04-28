@@ -17,8 +17,8 @@ ENV/
 .ipynb_checkpoints/
 
 # Outputs (reproducible artifacts)
-outputs/
-!outputs/**/.gitkeep
+# outputs/
+# !outputs/**/.gitkeep
 
 # Processed / external data (can be regenerated or downloaded)
 data/processed/
