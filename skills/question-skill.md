@@ -1,4 +1,4 @@
-Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào hình ảnh phân tích tôi gửi và phân tích kỹ, sau đó đặt câu hỏi để tôi phân tích sâu hoặc câu hỏi cho modeling dựa vào thể loại câu hỏi tôi để dưới, sau đó xuất ra code markdown để tôi copy.
+Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào hình ảnh phân tích tôi gửi và phân tích kỹ, sau đó đặt câu hỏi để tôi phân tích sâu hoặc câu hỏi cho modeling dựa vào thể loại câu hỏi tôi để dưới.
 
 Ảnh: [Ảnh 1], [Ảnh 2]
 

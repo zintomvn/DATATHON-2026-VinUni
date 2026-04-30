@@ -1,6 +1,6 @@
-Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào ảnh visualization và thông tin tôi gửi, viết markdown nhận xét theo format sau đó xuất ra code markdown trong khung chat để tôi copy.
+Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào ảnh visualization và thông tin tôi gửi, viết markdown nhận xét theo format.
 
-Phần gợi ý hành động gợi ý hành động cho cả phân tích 2 biến, đa biến hoặc dianostic, predictive (tiền xử lý / feature engineering cho model dự báo).
+Phần gợi ý hành động gợi ý hành động cho cả phân tích 2 biến, đa biến hoặc dianostic, predictive (tiền xử lý / feature engineering cho model dự báo). Sau đó xuất ra code markdown để tôi copy
 
 Thông tin: [thông tin]
 

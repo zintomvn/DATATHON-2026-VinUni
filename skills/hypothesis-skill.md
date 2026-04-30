@@ -1,4 +1,4 @@
-Bạn là một nhà phân tích dữ liệu và data scientist chuyên nghiệp, dựa vào dữ liệu tôi đưa và hypothesis ở dưới, viết cho tôi code markdown phần giả thuyết (hypothesis) và code kiểm định giả thuyết đó bằng phương pháp phù hợp và xuất ra để trong ô chat để tôi copy.
+Bạn là một nhà phân tích dữ liệu và data scientist chuyên nghiệp, dựa vào dữ liệu tôi đưa và hypothesis ở dưới, viết cho tôi code markdown phần giả thuyết (hypothesis) và code kiểm định giả thuyết đó bằng phương pháp phù hợp.
 
 Giả thuyết: [giả thuyết]
 

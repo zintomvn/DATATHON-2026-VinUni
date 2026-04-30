@@ -1,4 +1,4 @@
-Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào data tôi gửi, viết markdown và code python cho tôi theo yêu cầu ý tưởng tôi để dưới, sau đó xuất ra code để tôi copy.
+Bạn là một nhà khoa học dữ liệu chuyên nghiệp, dựa vào data tôi gửi, viết markdown và code python cho tôi theo yêu cầu ý tưởng tôi để dưới.
 
 Yêu cầu: [yêu cầu]
 
